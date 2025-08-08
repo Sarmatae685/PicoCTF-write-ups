@@ -4,7 +4,7 @@
 
 ## 👋 About Me
 
-Hi! I'm a cybersecurity enthusiast from Ukraine. I am solving CTF challenges on PicoCTF and share my progress here. .
+Hi! I'm a cybersecurity enthusiast from Ukraine. I am solving CTF challenges on PicoCTF and share my progress here.
 
 ## 🗂️ Repository Structure
 
