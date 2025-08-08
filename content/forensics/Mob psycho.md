@@ -112,4 +112,4 @@ xargs -I {} sh -c 'echo "Hex: {}"; echo "Decoded: $(echo {} | xxd -r -p)"; echo 
 
 picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_5e67ea5e}
 
-Повний перелік команд для вирішення на моєму GitHub: *[click](../../scripts/forensics/mob-psycho/bash_to_solve.md)*
+Повний перелік команд для вирішення на моєму GitHub: *[click](../scripts/forensics/mob-psycho/bash_to_solve.md)*
