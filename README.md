@@ -5,6 +5,7 @@
 ## 👋 About Me
 
 Hi! I'm a cybersecurity enthusiast from Ukraine. I am solving CTF challenges on PicoCTF and share my progress here.
+The language of write-ups is ukrainian, but most likely I`ll translate in to english in future.
 
 ## 🗂️ Repository Structure
 
