@@ -1,4 +1,5 @@
 ![Milkslap_image_1](../assets/images/Milkslap_image_1.png)
+
 At first glance, this task appears to belong to the `Web Exploitation` category, but the hint suggests looking elsewhere.
 
 ![Milkslap_image_2](../assets/images/Milkslap_image_2.png)
@@ -66,6 +67,7 @@ if __name__ == "__main__":
     extract_frames()
 ```
 Result:
+
 ![Milkslap_image_5](../assets/images/Milkslap_image_5.png)
 
 ### `zteg_to_each_frame.sh`
@@ -86,6 +88,7 @@ done
 ```
 
 Result:
+
 ![Milkslap_image_6](../assets/images/Milkslap_image_6.png)
 
 `picoCTF{imag3_m4n1pul4t10n_sl4p5}`
