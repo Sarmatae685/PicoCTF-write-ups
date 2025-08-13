@@ -19,4 +19,5 @@ content/
     ├── forensics/
     ├── <categories, available on picoctf>
     └── <...coming soon>
+notes/                     # notes I may write while solving some tasks 
 ```
