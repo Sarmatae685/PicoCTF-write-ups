@@ -44,7 +44,7 @@ For example payload `' OR 1=1;/*`
 
 
 
-![Logical disjunction schema](../assets/images/Logical%20disjunction.png)
+![Logical disjunction schema](../assets/images/Logical_disjunction.png)
 
 * `--` - This is a comment in SQL that disables the rest of the query after it (comments it out). You can try the same thing with the end-of-query symbol `;`.
 
