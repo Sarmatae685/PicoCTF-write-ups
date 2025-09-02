@@ -62,7 +62,7 @@ When `./Flag.sh` was run, a file named flag was created with the extension:
 
 ![image_9](../assets/images/File-types_image_9.png)
 
-In both cases, we get an `ar` archive. This format has the extension `.a` or `.ar`. ([More here](https://uk.wikipedia.org/wiki/Ar_(Unix))) so let's rename it for convenience:
+In both cases, we get an `ar` archive. This format has the extension `.a` or `.ar`. ([More here](https://en.wikipedia.org/wiki/Ar_(Unix))) so let's rename it for convenience:
 
 ```bash
 mv flag flag.a
@@ -188,6 +188,6 @@ cat flag | xxd -r -p && echo ''
 
 ![image_26](../assets/images/File-types_image_26.png)
 
-picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_3c79c5ba}
+`picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_3c79c5ba}`
 
 
