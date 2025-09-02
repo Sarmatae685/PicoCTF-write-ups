@@ -37,10 +37,10 @@ def level_1_pw_check():
 
 level_1_pw_check()
 ```
+<br/>
+We need to concatenate the pieces of the "secret" key to decrypt the flag: <br/><br/>
 
-We need to concatenate the pieces of the "secret" key to decrypt the flag: 
-
-![image_3](../assets/images/patchme.py_image_3.png)<br/>
+![image_3](../assets/images/patchme.py_image_3.png)<br/><br/>
 
 ![image_4](../assets/images/patchme.py_image_4.png)<br/>
 
