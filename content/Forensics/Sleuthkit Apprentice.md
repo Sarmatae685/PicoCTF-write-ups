@@ -82,13 +82,13 @@ or:
 >
 > 
 > 1. **File type:** regular file, directory, symbolic link, device, etc.
-> 2. **Access rights:** rwx
+> 2. **Access rights:** read, write execute permissions.
 > 3. **Owner and group:** The user ID (UID) and group ID (GID) that own the file.
 > 4. **Timestamps:**
 >     * **atime** (access time): Time of last access (read) to the file.
 >     * **mtime** (modification time): Time of last file content change.
 >     * **ctime** (change time): Time of the last inode change (e.g., change in access rights, owner, file content).
-> 5. **File size:** в байтах.
+> 5. **File size:** in bytes.
 > 6. **Number of hard links:** The number of times a file is referenced in the directory structure. When a file is deleted, the hard link count is decremented. When it reaches 0, the data can be freed.
 > 7. **Pointers to data blocks:** Most importantly, an inode contains pointers (addresses) to data blocks on the disk where the file content is actually stored.
 
