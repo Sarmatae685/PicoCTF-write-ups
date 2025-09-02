@@ -1,10 +1,10 @@
 ![alt_text](images/image1.png "image_tooltip")
 
-In this task, just like in the previous [Operation Oni](Operation-Oni.md), we need to analyze `disk.flag.img` and find the files related to the flag there.
+In this task, just like in the previous [Operation Oni](../Operation-Oni.md), we need to analyze `disk.flag.img` and find the files related to the flag there.
 
 ## Autopsy
 
-We will use Autopsy for analysis. Instructions for creating a project and uploading the file under investigation can be found in the write-up [Operation Oni](Operation-Oni.md).
+We will use Autopsy for analysis. Instructions for creating a project and uploading the file under investigation can be found in the write-up [Operation Oni](../Operation-Oni.md).
 
 In the `/root` directory, we find three files that provide us with information about actions on the flag:
 
