@@ -4,7 +4,7 @@ In this task, we need to extract the flag from `network-dump.flag.pcap`.
 
 Follow TCP-stream:
 
-![image_2](../assets/images/Operation-Orchid_image_2.gif)
+![image_2](../assets/images/Packets-Primer_image_2.gif)
 
 We need to remove spaces from this stream. Let's create a script for this:
 flag.txt:
