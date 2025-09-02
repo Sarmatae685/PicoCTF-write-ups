@@ -95,7 +95,7 @@ or:
 
 > [!IMPORTANT]
 > **`inode` importance in forensics:**
-> * **Deleted files:** When a file is deleted, its name is simply removed from the directory, and the pointers to the data blocks in the inode may remain unchanged until those blocks are overwritten..
+> * **Deleted files:** When a file is deleted, its name is simply removed from the directory, and the pointers to the data blocks in the inode may remain unchanged until those blocks are overwritten.
 
 ```bash
 icat -i raw -f ext4 -o 360448 -r disk.flag.img 2371
