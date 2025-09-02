@@ -16,7 +16,7 @@ For more details on how to create a project and add a file to Autopsy for analys
 > [!NOTE]
 > `mmls` used to list the partition table contents so that you can determine where each partition starts. ([Source](https://wiki.sleuthkit.org/index.php?title=Mmls))
 
-First, let's look at the partitions on the disk. Here you can see the offset at which each partition begins..
+First, let's look at the partitions on the disk. Here you can see the offset at which each partition begins.
 
 ```bash
 mmls disk.flag.img
