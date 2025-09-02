@@ -1,10 +1,10 @@
 ![Task desc](../assets/images/Operation-Orchid_image_1.png)
 
-In this task, just like in the previous ![Operation Oni](../Forensics/Operation-Oni.md), we need to analyze `disk.flag.img` and find the files related to the flag there.
+In this task, just like in the previous [Operation Oni](Operation%20Oni.md), we need to analyze `disk.flag.img` and find the files related to the flag there.
 
 ## Autopsy
 
-We will use Autopsy for analysis. Instructions for creating a project and uploading the file under investigation can be found in the write-up [Operation Oni](../Forensics/Operation-Oni.md).
+We will use Autopsy for analysis. Instructions for creating a project and uploading the file under investigation can be found in the write-up [Operation Oni](Operation%20Oni.md).
 
 In the `/root` directory, we find three files that provide us with information about actions on the flag:
 
