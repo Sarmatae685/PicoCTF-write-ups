@@ -29,6 +29,7 @@ First, I counted the frames manually, there are `66` of them.
 
 <br/>
 
+### Cutting frames
 Let's write a Python-script `cut_frames.py` for cutting frames from a sprite sheet:
 
 > [!TIP]
@@ -74,7 +75,8 @@ Result:
 
 ![Milkslap_image_5](../assets/images/Milkslap_image_5.png)
 
-### `zteg_to_each_frame.sh`
+### Automate flag search
+
 Let's apply zsteg. Writing bash-ascrpt `zteg_to_each_frame.sh` to automate this process:
 ```bash
 #!/bin/bash
@@ -96,7 +98,3 @@ Result:
 ![Milkslap_image_6](../assets/images/Milkslap_image_6.png)
 
 `picoCTF{imag3_m4n1pul4t10n_sl4p5}`
-
-
-
-
