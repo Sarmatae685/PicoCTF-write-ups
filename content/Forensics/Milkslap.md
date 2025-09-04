@@ -27,8 +27,12 @@ So I came up with the idea of splitting this file into frames and applying zsteg
 First, I counted the frames manually, there are `66` of them.
 `47520/66=720` divides evenly. Therefore, we get that each frame has a resolution of `1280x720`.
 
-### `cut_frames.py`
-Let's write a Python-script cut_frames.py for cutting frames from a sprite sheet:
+<br/>
+
+Let's write a Python-script `cut_frames.py` for cutting frames from a sprite sheet:
+
+> [!TIP]
+> Scripts and explanations to them I left here: [*click*](../scripts/forensics/milkslap)
 
 ```python
 #usage:
