@@ -98,5 +98,3 @@ However, there is no mention of the flag in the decrypted traffic in UDP/TCP str
 Therefore, the task was simply to crack the password using a dictionary.
 
 `picoCTF{mickeymouse}`
-
-picoCTF{mickeymouse}
