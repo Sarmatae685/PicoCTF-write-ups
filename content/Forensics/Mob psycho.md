@@ -1,10 +1,12 @@
-![Challenge description](../assets/images/Mob-psycho_image_1.png)
+![Task desc](../assets/images/Mob-psycho_image_1.png)
 
-Скачуємо файл `mobpsycho.apk`, командою `file` розпізнається як `Zip archive data`.
+Download the file `mobpsycho.apk`, which is recognized by the `file` command as `Zip archive data`.
 
-## Розпакування
+---
 
-Розпакувати цей apk можна 3 способами:
+### Unpacking
+
+There are three ways to unpack this apk:
 
 
 ```bash
@@ -15,29 +17,28 @@ binwalk -e mobpsycho.apk
 
 
 
-## 
-Пошук за `'picoCTF\{.*\}'` 
+### Search by `'picoCTF\{.*\}'` 
 
+Each time I unpacked a challenge file a separate directory was created, so I started searching for the string "picoCTF" in each of these directories:
 
-Щоразу була створена окрема директорія, тож я почав шукати збіг “`picoCTF{`” по кожній з таких директорій цілком:
-
-Пошук strings з grep по всіх файлах рекурсивно:
-
+Search for strings with `grep` recursively across all files:
 
 ```bash
 find mobpsycho -type f -exec strings {} \; | grep -oE 'picoCTF\{.*\}'
 ```
 
-
-Скорочений варіант з xargs:
+Alternative version with `xargs`:
 
 
 ```bash
 find mobpsycho -type f -print0 | xargs -0 strings | grep -oE 'picoCTF\{.*\}'
 ```
 
+> [!TIP]
+> Full list of commands with explanations to solve this challenge I left here: [*click*](../scripts/forensics/mob-psycho/bash_to_solve.md)
 
-Спробував пошук вручну по файлах:
+
+Tried searching manually through files:
 
 ```bash
 strings mobpsycho/AndroidManifest.xml | grep -oE 'picoCTF\{.*\}'
@@ -46,26 +47,27 @@ strings mobpsycho/classes2.dex | grep -oE 'picoCTF\{.*\}'
 strings mobpsycho/classes3.dex | grep -oE 'picoCTF\{.*\}'
 ```
 
-Пошук в res директорії:
+Search in `/res` directory:
 
 ```bash
 find mobpsycho/res -type f -exec strings {} \; | grep -oE 'picoCTF\{.*\}'
 ```
 
-Пошук як в текстових, так і в бінарних файлах:
+Search in both text and binary files:
 
 ```bash
 grep -r -a -oE 'picoCTF\{.*\}' mobpsycho/
 ```
-## Пошук за `'[0-9a-fA-F]{16,}'` 
 
-Потім мені прийшла думка, що можливо прапор якось закодований, наприклад у hex-коді. Тож я склав регулярний вираз, який міститиме:
+### Search by `'[0-9a-fA-F]{16,}'` 
 
-* числа 0-9
-* літери англ. алфавіту нижнього і верхнього регістрів
-* мінімальна довжина послідовності від 16 символів
+Then I caught a thought that perhaps the flag **was encoded** in some way, for example in **hex code**. So I wrote a regular expression that would contain:
 
-Спробуємо базовий пошук за вищенаведеними правилами:
+* numbers 0-9
+* letters of the English alphabet in lower and upper case
+* minimum sequence length of 16 characters
+
+Let's try a basic search using the above rules:
 
 ```bash
 find mobpsycho -type f -exec strings {} \; | grep -oE '[0-9a-fA-F]{16,}'
@@ -75,31 +77,27 @@ find mobpsycho -type f -exec strings {} \; | grep -oE '[0-9a-fA-F]{16,}'
 ![basic search kali output](../assets/images/Mob-psycho_image_2.png)
 
 
-Одна з послідовностей виглядає достатньо довгою, щоб бути прапором, але спробуємо ще варіанти пошуку.
+One of the sequences looks long enough to be a flag, but let's try some more search options.
 
-Додамо `sort -u`:
+Let's add `sort -u`:
 
-
-```
+```bash
 find mobpsycho -type f -exec strings {} \; | grep -oE '[0-9a-fA-F]{16,}' | sort -u 
 ```
 
 ![adding sort -u kali output](../assets/images/Mob-psycho_image_3.png)
 
 
-Оскільки потенційний прапор ми знайшли, спробуємо сформувати команду, яка виводить тільки його, максимально не засмічуючи термінал. Для цього візьмемо перші символи hex-коду прапора:
+Since we have found a potential flag, let's try to form a command that outputs only it, without cluttering up the terminal as much as possible. To do this, we will take the first characters of the flag's hex code:
 
-
-```
+```bash
 find mobpsycho -type f -exec strings {} \; | grep -i "7069636f4354467b" | head -5
 ```
 
 ![only one match output](../assets/images/Mob-psycho_image_4.png)
 
 
-Тепер команда, що шукатиме і розкодовуватиме прапор:
-
-
+Command that will **search for and decode** the flag:
 
 ```bash
 find mobpsycho -type f -exec strings {} \; |
@@ -110,6 +108,4 @@ xargs -I {} sh -c 'echo "Hex: {}"; echo "Decoded: $(echo {} | xxd -r -p)"; echo 
 ![flag find-->decode-->show](../assets/images/Mob-psycho_image_5.png)
 
 
-picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_5e67ea5e}
-
-Повний перелік команд для вирішення на моєму GitHub: *[click](../scripts/forensics/mob-psycho/bash_to_solve.md)*
+`picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_5e67ea5e}`
