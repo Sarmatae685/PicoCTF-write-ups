@@ -69,7 +69,7 @@ The phrase "Gone_Surfing" is the name of the WiFi network (access point) to whic
 ![image_8](../assets/images/WPA-ing-Out_image_8.png)
 
 
-This data can be used to decrypt traffic in Wireshark:
+This data can be used to decrypt traffic in Wireshark.
 
 First, let's look at the protocol hierarchy:  
 
