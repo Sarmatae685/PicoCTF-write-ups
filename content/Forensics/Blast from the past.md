@@ -100,7 +100,7 @@ Let's look at the changes:
 ![image_8](../assets/images/Blast-from-the-past_image_8.png)
 
 
-Sending to server: \
+Sending to server:  
 
 ![image_9](../assets/images/Blast-from-the-past_image_9.png)
 
@@ -164,7 +164,7 @@ strings original_modified.jpg > strings_original_modified.txt
 
 ### Time Calc
 
-Let's use the online tool [Time Calcuator](https://www.timecalculator.net/milliseconds-to-date):
+Let's use the online tool [Time Calculator](https://www.timecalculator.net/milliseconds-to-date):
 
 
 ![image_15](../assets/images/Blast-from-the-past_image_15.png)
