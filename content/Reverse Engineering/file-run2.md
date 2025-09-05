@@ -31,7 +31,7 @@ This condition is true if `param_1` (i.e., `argc`) is not equal to 2. This means
 
 Identically to the previous task, we display the flag:
 
-```shell
+```bash
 ./run Hello! | cut -d " " -f4
 ```
 
