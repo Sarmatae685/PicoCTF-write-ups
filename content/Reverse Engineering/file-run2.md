@@ -24,9 +24,9 @@ if ((param_1 < 2) || (2 < param_1))
 This condition is true if `param_1` (i.e., `argc`) is not equal to 2. This means that the program expects to be run with **exactly one additional argument**, besides the name of the program itself.
 
 
-* If run `./program_name`, then `argc `= 1.
-* IF `./program_name arg1`, then `argc `= 2.
-* If `./program_name arg1 arg2`, then `argc `= 3.
+* if `./program_name`, then `argc `= 1.
+* if `./program_name arg1`, then `argc `= 2.
+* if `./program_name arg1 arg2`, then `argc `= 3.
 * Therefore, branch `else (argc == 2)` will be executed when we run the program with **one argument**.
 
 Identically to the previous task, we display the flag:
