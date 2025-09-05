@@ -1,4 +1,4 @@
-![Task desc](../assets/images/file-run1_image_1.png)
+![Task desc](../assets/images/file-run2_image_1.png)
 
 
 Similar to the previous task [file-run1](file-run1.md), we need to download and execute the file, but this time with the parameter
@@ -16,7 +16,7 @@ chmod +x run
 
 I tried [decompile](https://dogbolt.org/?id=15c2c500-4e35-48d2-9c64-df72f1a8673b) this file and my eye caught the following function:  
 
-![image_2](../assets/images/file-run1_image_2.png)
+![image_2](../assets/images/file-run2_image_2.png)
 
 ```c
 if ((param_1 < 2) || (2 < param_1))
@@ -35,7 +35,7 @@ Identically to the previous task, we display the flag:
 ./run Hello! | cut -d " " -f4
 ```
 
-![image_3](../assets/images/file-run1_image_3.png)
+![image_3](../assets/images/file-run2_image_3.png)
 
 
 `picoCTF{F1r57_4rgum3n7_96f2195f}`
