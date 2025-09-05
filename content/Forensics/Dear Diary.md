@@ -48,9 +48,9 @@ r/r 15: System.map-virt
 r/r 25: vesamenu.c32
 V/V 76913:      $OrphanFiles
 ```
- \
-And for Linux (0x83) with Offset `1140736`: 
 
+
+And for Linux (0x83) with Offset `1140736`: 
 
 
 ```bash
@@ -93,26 +93,25 @@ d/d 1842:       secret-secrets
 
 Now we need to find out the file system of the partition. I do it this way:
 
-
-
-`fsstat -o 1140736 disk.flag.img > 'disk fsstat Linux'.txt`
-
-
+```
+fsstat -o 1140736 disk.flag.img > 'disk fsstat Linux'.txt
+```
 
 ![image_2](../assets/images/Dear-Diary_image_2.png)
 
 
 To view the contents of the file, we will use:
 
+```bash
+icat -i raw -f ext4 -o 1140736 -r disk.flag.img 1844
+```
 
 
-`icat -i raw -f ext4 -o 1140736 -r disk.flag.img 1844`
+To download the file:
 
-
-
- \
-To download the file: \
-`icat -o 1140736 disk.flag.img 1844 > innocuous-file.txt` 
+```bash
+icat -o 1140736 disk.flag.img 1844 > innocuous-file.txt
+``` 
 
 The file is completely empty. 
 
@@ -133,30 +132,24 @@ inode 10: reserved
 ```
 
 
-Let's see if there are any readable lines behind these inodes. Going through 1-10, I noticed: \
+Let's see if there are any readable lines behind these inodes. Going through 1-10, I noticed:  
 
 
-
-
-`icat -o 0001140736  disk.flag.img 8 | strings` 
-
-
-
+```bash
+icat -o 0001140736  disk.flag.img 8 | strings
+``` 
 
 ![3](../assets/images/Dear-Diary_image_3.png)
 
 
 The name of the suspicious file is repeated several times.
 
- 
 
-
-`icat -o 1140736  disk.flag.img 8 | xxd | grep '.txt' -A4 -B2`
-
-
+```bash
+icat -o 1140736  disk.flag.img 8 | xxd | grep '.txt' -A4 -B2
+```
 
 Let's break down this command:
-
 
 
 * `icat -o 1140736 disk.flag.img 8` — extracts **raw binary data** from inode 8 (ext4 file system journal). As a result, an unencoded byte stream will be output to the console.
@@ -189,17 +182,16 @@ First, let's create a new Case for Windows and view the files in the sections on
 
 So let's move on to autopsy on Kali Linux.
 
-
-
-`sudo autopsy`
-
-
+```
+sudo autopsy
+```
 
 Create a new Case and specify the absolute path to `.img`. It is important that there are **no spaces** in the path. For example, in my case it is:
 
 
-`/home/kali/Desktop/pico/Dear_Diary/disk.flag.img`
-
+```
+/home/kali/Desktop/pico/Dear_Diary/disk.flag.img
+```
 
 
 
@@ -223,11 +215,9 @@ Select `Analyze`. Next, select `Keyword Search` and search for `innocuous-file.t
 
 Starting with 4, we see that the flag is split across blocks in the file system. It is possible that the file `innocuous-file.txt` is stored in several blocks.
 
-**
-
-Blocks are the smallest unit of space allocation for files.
-
-The file system groups sectors into larger blocks
+> [!NOTE]
+> Blocks are the smallest unit of space allocation for files.
+> The file system groups sectors into larger blocks
 
 We'll use this command for detailed information about the volume on the disk:
 
@@ -252,7 +242,7 @@ Free Blocks: 378721
 
 As we can see, the size of one block is 1024 bytes.
 
-Find out the size of the sector: \
+Find out the size of the sector:  
 
 
 
@@ -284,10 +274,8 @@ disk.flag.img:
 ```
 
 
-**
 
-Тепер треба зібрати всі частинки прапора по units
-
+Now we need to collect all the pieces of the flag by units.
 
 
 ## III method
@@ -295,14 +283,13 @@ disk.flag.img:
 After finding the directory with the files in Autopsy, we will upload the entire `disk.flag.img` file to `HxD` on Windows:
 
 
-
 ![10](../assets/images/Dear-Diary_image_10.png)
 
 
-We see 14 matches, as found by autopsy on Kali Linux. And starting with 4, pieces of the flag appear: \
+We see 14 matches, as found by autopsy on Kali Linux. And starting with 4, pieces of the flag appear:  
 
 
 ![11](../assets/images/Dear-Diary_image_11.png)
 
 
-picoCTF{1_533_n4m35_80d24b30}
+`picoCTF{1_533_n4m35_80d24b30}`
