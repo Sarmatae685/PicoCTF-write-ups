@@ -58,7 +58,7 @@ It is clear from above output that the problem lies in the bytes that indicate t
 We'll focus on IHDR-length only.  
 
 
-![image_5](../assets/images/advanced-potion-making_image_5.png)
+![image_5](../content/assets/images/IHDR_structure.png)
 
 
 I googled "Invalid IHDR length" and found on Stack Overflow an [article](https://stackoverflow.com/questions/54845745/not-able-to-read-ihdr-chunk-of-a-png-file) about IHDR-chunk structure (I took the image from there).
