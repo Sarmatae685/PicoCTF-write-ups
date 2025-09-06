@@ -142,6 +142,8 @@ strings disko-2.dd | grep -o -E 'picoCTF\{[a-zA-Z0-9_]+\}'
 
 ![image_13](../assets/images/DISKO-2_image_13.png)
 
+> [!TIP]
+> If you want to try on your own and have Burp Professional, I left list with flags here: [*click*](../scripts/forensics/DISKO%202/Brute_flag_Burp_list.txt)
 
 
 then `Simple List`:
