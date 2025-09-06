@@ -1,9 +1,9 @@
-![Task desc](../assets/images/DISKO-2_image_1.png)
+![Task desc](../assets/images/DISKO-3_image_1.png)
 
 
 We try the `file` command for `disko-2.dd` from [previous task](DISKO%202.md) and `disko-3.dd` and immediately see the difference:  
 
-![image_2](../assets/images/DISKO-2_image_2.png)
+![image_2](../assets/images/DISKO-3_image_2.png)
 
 
 `disko-2.dd` has partitions, while `disko-3.dd` is a single partition with the FAT32 file system. 
@@ -24,12 +24,12 @@ sudo mount -o loop disko-3.dd /mnt/disko3
 
 Trying the same method as for [DISKO 2](DISKO%202.md):   
 
-![image_3](../assets/images/DISKO-2_image_3.png)
+![image_3](../assets/images/DISKO-3_image_3.png)
 
 
 Next, I move on to `/mnt/disko3/log/journal/480afdbb61874a758c0b53617cfc8e8f`:  
 
-![image_4](../assets/images/DISKO-2_image_4.png)
+![image_4](../assets/images/DISKO-3_image_4.png)
 
 
 `archived` means that this file is no longer used for writing new logs.
@@ -76,7 +76,7 @@ But to no avail.
 Then, I noticed file `flag.gz` in `/mnt/disko3/log`:
 
 
-![image_5](../assets/images/DISKO-2_image_5.png)
+![image_5](../assets/images/DISKO-3_image_5.png)
 
 
 extracted it to specified output file:
@@ -88,7 +88,7 @@ gunzip -c flag.gz > ~/Desktop/pico/DISKO\ 1-3/3/flag_gunzipped
 
 and all of a sudden it was enough:
 
-![image_6](../assets/images/DISKO-2_image_6.png)
+![image_6](../assets/images/DISKO-3_image_6.png)
 
 
 `picoCTF{n3v3r_z1p_2_h1d3_7e0a17da}`
