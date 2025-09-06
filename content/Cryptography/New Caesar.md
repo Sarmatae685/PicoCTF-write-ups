@@ -101,7 +101,7 @@ Here I described what it should perform:
 All that remains is to write the final double loop, where the outer loop will iterate through the characters of ALPHABET in order to find the correct key, and the inner loop will take the key selected by the outer loop and take each ciphertext character `mlnklfnknljflfjljnjijjmmjkmljnjhmhjgjnjjjmmkjjmijhmkjhjpmkmkmljkjijnjpmhmjjgjj` and throw this pair into the `unshift` method, thereby extracting the `b16 encoded` string. Then the entire string will be passed to the `b16_decode` function, and so on for all possible keys (16 variants from ALPHABET):
 
 > [!NOTE]
-> I duplicated code here: [*click*](../content/scripts/cryptography/New%20Caesar/reverse%20new%20caesar.py)
+> I duplicated code here: [*click*](../scripts/cryptography/New%20Caesar/reverse%20new%20caesar.py)
 
 ```python
 import string
