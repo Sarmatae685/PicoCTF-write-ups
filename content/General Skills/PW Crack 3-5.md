@@ -82,7 +82,7 @@ with open('dictionary.txt', 'r') as f:
 The main difference between these two options is that in 1:
 
 
-* `f.readlines()` usually called in the block  `with open `only once, the file pointer (cursor) moves to the end of the file, and when this method is called again, the pointer, which is already at the end, simply returns an empty list
+* `f.readlines()` usually called in the block  `with open` only once, the file pointer (cursor) moves to the end of the file, and when this method is called again, the pointer, which is already at the end, simply returns an empty list
 * However, to reuse it, you need to use the `f.seek()` method to move the cursor back.
 
 **First call `f.readlines()`:** Reads all lines, cursor at the end.
