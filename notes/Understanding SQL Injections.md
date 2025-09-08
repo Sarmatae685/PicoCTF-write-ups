@@ -1,9 +1,9 @@
 SQL injection (SQLi) is a well-known web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. ([Source](https://portswigger.net/web-security/sql-injection))
 
 This note may be expanded in future. Challenges that require SQLi:
-* SQL Direct
-* SQLiLite
-* More SQLi
+* SQL Direct : [*click*](../content/Web%20Exploitation/SQL%20Direct.md)
+* SQLiLite : [*click*](../content/Web%20Exploitation/SQLiLite.md) 
+* More SQLi : [*click*](../content/Web%20Exploitation/More%20SQLi.md) 
 
 Let's assume that the application queries the database with the following SQL query:
 
@@ -33,18 +33,16 @@ For the last condition, we need to know what comments or query endings look like
 
 For example payload `' OR 1=1;/*`
 
-`'`- закриває лапку для поля `name`, завершуючи порожній рядок
+`'`- closes the bracket for the `name` field, ending an empty line
 
-`OR 1=1` - додає умову, яка **завжди істинна**:
+`OR 1=1` - adds a condition that is **always true**:
 
 
 
 * `1=1` always equals `true`
 * Because of the operator `OR`, even if `name=' '` is `false`, the entire expression becomes `true`. The operator assumes that if **ONE** condition of the expression is *true*, then the entire expression is *true*. ([Logical disjunction](https://en.wikipedia.org/wiki/Logical_disjunction))
 
-
-
-![Logical disjunction schema](../content/assets/images/Logical_disjunction.png)
+  ![Logical disjunction schema](../content/assets/images/Logical_disjunction.png)
 
 * `--` - This is a comment in SQL that disables the rest of the query after it (comments it out). You can try the same thing with the end-of-query symbol `;`.
 
