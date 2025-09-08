@@ -63,7 +63,8 @@ d_mod = 1 -> 1 + 65 = ‘B’
   elif d_mod in range(26, 36): 
         decoded_string += str(d_mod - 26)
   ```
-`
+
+
 The condition states "26-35 are the decimal digits", i.e. a comparison is also formed:
 
 
@@ -82,6 +83,8 @@ d_mod = 35 -> 35 - 26 = 9 (The result of module 35 corresponds to the number 9)
 `picoCTF{R0UND_N_R0UND_B6B25531}`
 
 ---
+
+<br/>
 
 ![image_3](../assets/images/basic-mod1-2_image_3.png)
 
