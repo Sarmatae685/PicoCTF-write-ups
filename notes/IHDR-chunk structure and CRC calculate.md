@@ -1,5 +1,13 @@
+> [!TIP]
+> This note may be helpful for solving:
+> * [advanced-potion-making](../content/Forensics/advanced-potion-making.md) 
+
+<br/>
+
 ![IHDR Structure](../content/assets/images/IHDR_structure.png)  
 [Source](https://stackoverflow.com/questions/54845745/not-able-to-read-ihdr-chunk-of-a-png-file) that helped me.
+
+<br/>
 
 > [!NOTE]
 > `89 50 4E 47 0D 0A 1A 0A` .PNG signature (Check other sigs [here](https://en.wikipedia.org/wiki/List_of_file_signatures))
@@ -35,6 +43,3 @@ To calculate `CRC-32`, we need to take ONLY:
 ```
 the whole IHDR EXCEPT length (first 4 bytes): `4948445200000590000001110806000000` --> CRC input  
 CRC32/ISO-HDLC: `E58A8233`  Good online tool: [CRC Calculator Online](https://calctools.online/en/checksum/crc)                                      
-
-
-
