@@ -16,7 +16,7 @@
 00          : Compression method (1 byte) 
 00          : Filter method (1 byte)
 00          : Interlace method (1 byte)
-E5 8A 82 33 : CRC checksum (4 bytes) https://stackoverflow.com/questions/54845745/not-able-to-read-ihdr-chunk-of-a-png-file
+E5 8A 82 33 : CRC checksum (4 bytes) 
 ```
 
 Detailed PNG Specification found [here](https://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html).<br><br>
