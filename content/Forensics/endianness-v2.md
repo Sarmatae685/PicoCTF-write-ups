@@ -6,7 +6,7 @@ The task description suggests that byte reversal should be performed in a 32-bit
 
 ---
 
-First, let's look at the file itself in `hexeditor` or `ghex` to see if there is anything readable there.:
+First, let's look at the file itself in `hexeditor` or `ghex` to see if there is anything readable there:
 
 
 ![image_2](../assets/images/endianness-v2_image_2.png)
@@ -51,7 +51,9 @@ ELF  b'\x7F\x45\x4C\x46'
 PDF  b'\x25\x50\x44\x46'
 ```
 
-Then I wrote a Python-program, that does all the stuff automatically. I left it here: [*click*](../scripts/forensics/endianness-v2/endian_converter.py) 
+Then I wrote `endian_converter.py`, that does all the stuff automatically. 
+> [!TIP]
+> I left it here: [*click*](../scripts/forensics/endianness-v2/endian_converter.py) 
 
 
 ![image_5](../assets/images/endianness-v2_image_5.png)
