@@ -50,7 +50,7 @@ There are several nuances in the code for it to work correctly:
 The condition states “Take each number mod 37 and map it to the following character set”. That is, we take the module `d_mod` and convert it into an [ASCII](https://byte-tools.com/en/ascii/) character. 
 Since the uppercase letters of the English alphabet in the ASCII [table](https://byte-tools.com/en/ascii/) start at 65, and the module `d_mod` will be in the range from 0 to 25, then we must add `ord('A')` (i.e., 65) to each value.
 
-![ascii_image](../content/assets/images/basic-mod1-2_ascii.png)
+![ascii_image](../assets/images/basic-mod1-2_ascii.png)
 
 we get:
 ```
