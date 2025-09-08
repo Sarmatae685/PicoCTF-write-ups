@@ -1,9 +1,10 @@
-SQL injection (SQLi) is a well-known web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. ([Source](https://portswigger.net/web-security/sql-injection))
+> [!NOTE]
+> **SQL injection (SQLi)** is a well-known web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. ([Source](https://portswigger.net/web-security/sql-injection))
 
 This note may be expanded in future. Challenges that require SQLi:
-* SQL Direct : [*click*](../content/Web%20Exploitation/SQL%20Direct.md)
-* SQLiLite : [*click*](../content/Web%20Exploitation/SQLiLite.md) 
-* More SQLi : [*click*](../content/Web%20Exploitation/More%20SQLi.md) 
+* [SQL Direct](../content/Web%20Exploitation/SQL%20Direct.md)
+* [SQLiLite](../content/Web%20Exploitation/SQLiLite.md) 
+* [More SQLi](../content/Web%20Exploitation/More%20SQLi.md) 
 
 Let's assume that the application queries the database with the following SQL query:
 
@@ -56,7 +57,7 @@ SELECT * FROM users WHERE name='' OR 1=1;/*' AND password='PASSWORD'
 ```
 
 
-`/*` – Everything that follows this part will be considered a comment and will not be executed. Although `name='' ` is empty, the condition `OR 1=1` will force the entire expression to be *true*.
+`/*` – Everything that follows this part will be considered a comment and will not be executed. Although `name=''` is empty, the condition `OR 1=1` will force the entire expression to be *true*.
 
 Taking into account the three rules above, you can construct injections yourself, which I did while completing the [SQLiLite](../content/Web%20Exploitation/SQLiLite.md) task:  
 
