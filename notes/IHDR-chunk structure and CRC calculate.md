@@ -1,7 +1,8 @@
-![IHDR Structure](../content/assets/images/IHDR_structure.png)<br>
-[`Source`](https://stackoverflow.com/questions/54845745/not-able-to-read-ihdr-chunk-of-a-png-file) that helped me.
+![IHDR Structure](../content/assets/images/IHDR_structure.png)  
+[Source](https://stackoverflow.com/questions/54845745/not-able-to-read-ihdr-chunk-of-a-png-file) that helped me.
 
-`89 50 4E 47 0D 0A 1A 0A` .PNG signature (Check other sigs [`here`](https://en.wikipedia.org/wiki/List_of_file_signatures))
+> [!NOTE]
+> `89 50 4E 47 0D 0A 1A 0A` .PNG signature (Check other sigs [here](https://en.wikipedia.org/wiki/List_of_file_signatures))
 
 **IHDR chuck follows after signature with no padding inbetween**
 
@@ -18,7 +19,7 @@
 E5 8A 82 33 : CRC checksum (4 bytes) https://stackoverflow.com/questions/54845745/not-able-to-read-ihdr-chunk-of-a-png-file
 ```
 
-Detailed PNG Specification found [`here`](https://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html).<br><br>
+Detailed PNG Specification found [here](https://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html).<br><br>
 `PNG` uses `CRC-32` 
 To calculate `CRC-32`, we need to take ONLY:
 ```
@@ -32,8 +33,8 @@ To calculate `CRC-32`, we need to take ONLY:
 00           (filter)
 00           (interlace)
 ```
-thw whole IHDR EXCEPT length (first 4 bytes): `4948445200000590000001110806000000` --> CRC input<br>
-CRC32/ISO-HDLC: `E58A8233`  Good online tool: [`CRC Calculator Online`](https://calctools.online/en/checksum/crc)                                      
+the whole IHDR EXCEPT length (first 4 bytes): `4948445200000590000001110806000000` --> CRC input  
+CRC32/ISO-HDLC: `E58A8233`  Good online tool: [CRC Calculator Online](https://calctools.online/en/checksum/crc)                                      
 
 
 
