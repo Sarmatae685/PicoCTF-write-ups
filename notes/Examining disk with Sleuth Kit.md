@@ -30,8 +30,10 @@ fls -i raw -f ext4 -o 2048 -r disko-2.dd > <filename>
 # -i raw: specify. that the input file disk.flag.img is the "raw" image of the disk.
 # -f ext4: the type of file system inside the disk image
 ```
-📌 Why `raw`?: Because `fls` (and other Sleuth Kit tools) should know how to interpret the input file. If it were an E01 (EnCase) image, we would use `-i ewf`. If it were an aff (Advanced Forensic Format) image, it would be `-i aff`. 
-But since `disk.flag.img` is a simple sequence of bytes, `raw` is the correct choice.
+
+> [!NOTE]
+> 📌 Why `raw`?: Because `fls` (and other Sleuth Kit tools) should know how to interpret the input file. If it were an E01 (EnCase) image, we would use `-i ewf`. If it were an > aff (Advanced Forensic Format) image, it would be `-i aff`. 
+> But since `disk.flag.img` is a simple sequence of bytes, `raw` is the correct choice.
 
 #### If found right dir (usually `/root`), check what's inside recursively: 
 ```bash
@@ -39,7 +41,9 @@ fls -o 1140736 disk.flag.img -r 204
 # -r: Recurse on directory entries
 # 204: inode 
 ```
-📌 `inode` stores metadata about a file or directory, but does NOT store the actual contents of the file.
+
+> [!NOTE]
+> 📌 `inode` stores metadata about a file or directory, but does NOT store the actual contents of the file.
 
 #### View contents of the file by its inode:
 ```bash
