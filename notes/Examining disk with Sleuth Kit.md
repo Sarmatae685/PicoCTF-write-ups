@@ -1,8 +1,8 @@
 📒 Notes with command examples to examine a disk in forensics challenges like:
-- Sleuthkit Apprentice
-- DISKO 2
-- DISKO 3
-- Dear Diary
+- [Sleuthkit Apprentice](../content/Forensics/Sleuthkit%20Apprentice.md)
+- [DISKO 2](../content/Forensics/DISKO%202.md)
+- [DISKO 3](../content/Forensics/DISKO%203.md)
+- [Dear Diary](../content/Forensics/Dear%20Diary.md)
 
 and many more (some of them I solved via `Autopsy 4.22.0` for Windows 11)
 
