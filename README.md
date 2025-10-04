@@ -15,7 +15,6 @@ content/
 ├── assets/images/        # Screenshots for write-ups                                  
 └── scripts/              # Solution scripts/notes to them
     ├── forensics/
-    ├── <categories, available on picoctf>
-    └── <...coming soon>
+    └── <categories, available on picoctf>
 notes/                    # notes I may write while solving some tasks 
 ```
