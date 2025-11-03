@@ -1,3 +1,10 @@
+---
+tags: [General Skills, medium, python, beginner-picomini-2022]
+difficulty: medium
+category: general-skills
+created: 2025-04-24
+---
+
 ![Task desc](../assets/images/Serpentine_image_1.png)
 
 In this task, we have the code for the program `serpentine.py`, which needs some work. Let's take a closer look at it:  
