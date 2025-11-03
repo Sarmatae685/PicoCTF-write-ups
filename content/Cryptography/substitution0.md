@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, Substitution, picoctf-2022]
+difficulty: medium
+category: cryptography
+created: 2025-07-16
+---
+
 ![Task desc](../assets/images/substitution0_image_1.png)
 
 In this task, we need to solve a substitution cipher. In the message `message.txt`, we are given:
