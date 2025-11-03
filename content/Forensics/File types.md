@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-05-02
+---
+
 ![Task desc](../assets/images/File-types_image_1.png)
 
 
