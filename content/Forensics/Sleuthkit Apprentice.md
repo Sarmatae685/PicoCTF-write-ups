@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, disk, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-06-08
+---
+
 ![Task desc](../assets/images/Sleuthkit-Apprentice_image_1.png)
 
 In this task, we need to find the flag in the disk image `disk.flag.img`.
