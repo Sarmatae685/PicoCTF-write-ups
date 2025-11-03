@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2022]
+difficulty: medium
+category: cryptography
+created: 2025-05-01
+---
+
 ![Task desc](../assets/images/credstuff_image_1.png)<br/><br/>
 ![image_2](../assets/images/credstuff_image_2.png)<br/><br/>
 ![image_3](../assets/images/credstuff_image_3.png)<br/>
