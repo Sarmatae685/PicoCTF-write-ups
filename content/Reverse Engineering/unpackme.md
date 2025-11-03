@@ -1,3 +1,10 @@
+---
+tags: [Reverse Engineering, medium, binary, packed, picoctf-2022]
+difficulty: medium
+category: reverse-engineering
+created: 2025-07-19
+---
+
 ![Task desc](../assets/images/unpackme_image_1.png)
 
 
