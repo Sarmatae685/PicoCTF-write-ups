@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, disk, picoctf-2022]
+tags: [forensics, medium, disk, picoctf-2022]
 difficulty: medium
 category: forensics
 created: 2025-06-08
