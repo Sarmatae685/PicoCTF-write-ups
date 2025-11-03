@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, disk, browser_webshell_solvable, picoctf-2024]
+tags: [forensics, medium, disk, browser-webshell-solvable, picoctf-2024]
 difficulty: medium
 category: forensics
 created: 2025-08-15
