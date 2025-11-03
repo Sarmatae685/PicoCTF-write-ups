@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, disk, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-06-07
+---
+
 ![Task desc](../assets/images/Operation-Orchid_image_1.png)
 
 In this task, just like in the previous [Operation Oni](Operation%20Oni.md), we need to analyze `disk.flag.img` and find the files related to the flag there.
