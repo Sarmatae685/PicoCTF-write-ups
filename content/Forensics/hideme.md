@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, steganography, picoctf-2023]
+difficulty: medium
+category: forensics
+created: 2025-07-27
+---
+
 ![Task desc](../assets/images/hideme_image_1.png)    
 
 ---
