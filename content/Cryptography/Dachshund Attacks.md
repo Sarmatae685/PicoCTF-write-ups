@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2021]
+difficulty: medium
+category: cryptography
+created: 2025-04-18
+---
+
 ![Task desc](../assets/images/Dachshund-Attacks_image_1.png)
 
 In this task, we connect to `nc mercury.picoctf.net 37455` and obtain module `n`, public key `e`, and ciphertext `c` of the rsa algorithm:  
