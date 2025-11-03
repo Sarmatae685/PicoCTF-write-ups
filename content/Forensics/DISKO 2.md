@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, picogym-exclusive]
+tags: [forensics, medium, picogym-exclusive]
 difficulty: medium
 category: forensics
 created: 2025-08-01
