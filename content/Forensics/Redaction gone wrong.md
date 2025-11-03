@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-06-08
+---
+
 ![Task desc](../assets/images/Redaction-gone-wrong_image_1.png)
 
 
