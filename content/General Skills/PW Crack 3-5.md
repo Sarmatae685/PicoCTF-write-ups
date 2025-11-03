@@ -1,5 +1,5 @@
 ---
-tags: [General Skills, medium, password_cracking, hashing, beginner-picomini-2022]
+tags: [general-skills, medium, password-cracking, hashing, beginner-picomini-2022]
 difficulty: medium
 category: general-skills
 created: 2025-04-23
