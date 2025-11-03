@@ -1,5 +1,5 @@
 ---
-tags: [General Skills, medium, man, picoctf-2023]
+tags: [general-skills, medium, man, picoctf-2023]
 difficulty: medium
 category: general-skills
 created: 2025-05-02
