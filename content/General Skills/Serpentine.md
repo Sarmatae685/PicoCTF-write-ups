@@ -1,5 +1,5 @@
 ---
-tags: [General Skills, medium, python, beginner-picomini-2022]
+tags: [general-skills, medium, python, beginner-picomini-2022]
 difficulty: medium
 category: general-skills
 created: 2025-04-24
