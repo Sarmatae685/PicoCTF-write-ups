@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2022]
+difficulty: medium
+category: cryptography
+created: 2025-06-08
+---
+
 ![Task desc](../assets/images/rail-fence_image_1.png)
 
 
