@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, picomini-redpwn]
+tags: [forensics, medium, picomini-redpwn]
 difficulty: medium
 category: forensics
 created: 2025-08-13
