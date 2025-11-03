@@ -1,5 +1,5 @@
 ---
-tags: [Cryptography, medium, Substitution, picoctf-2022]
+tags: [cryptography, medium, substitution, picoctf-2022]
 difficulty: medium
 category: cryptography
 created: 2025-07-18
