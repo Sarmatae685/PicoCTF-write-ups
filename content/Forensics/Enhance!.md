@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, svg, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-05-01
+---
+
 ![Task desc](../assets/images/Enhance!_image_1.png)
 
 
