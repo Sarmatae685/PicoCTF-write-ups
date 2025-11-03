@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picogym-exclusive]
+difficulty: medium
+category: forensics
+created: 2025-08-01
+---
+
 ![Task desc](../assets/images/DISKO-2_image_1.png)
 
 In this task, we need to examine the disk `disko-2.dd`, specifically its Linux partition, and find the flag there.
