@@ -1,5 +1,5 @@
 ---
-tags: [Reverse Engineering, medium, obfuscation, picoctf-2022]
+tags: [reverse-engineering, medium, obfuscation, picoctf-2022]
 difficulty: medium
 category: reverse-engineering
 created: 2025-04-25
