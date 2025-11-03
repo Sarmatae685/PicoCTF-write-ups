@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picogym-exclusive]
+difficulty: medium
+category: forensics
+created: 2025-08-01
+---
+
 ![Task desc](../assets/images/DISKO-3_image_1.png)
 
 
