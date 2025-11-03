@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picogym-exclusive]
+difficulty: medium
+category: forensics
+created: 2025-08-11
+---
+
 ![Task desc](../assets/images/WPA-ing-Out_image_1.png)
 
 In this task, we need to crack a WPA-protected password. The task provides hints, namely to use `aircrack-ng` for cracking and the `rockyou.txt` dictionary for obtaining values for brute force. But in general, this task can be solved in several ways.
