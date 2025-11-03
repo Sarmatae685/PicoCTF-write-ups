@@ -14,7 +14,12 @@ content/
 ├── Web Exploitation
 ├── assets/images/        # Screenshots for write-ups                                  
 └── scripts/              # Solution scripts/notes to them
-    ├── forensics/
-    └── <categories, available on picoctf>
+    ├── binary exploitation/
+    ├── cryptography
+    ├── forensics
+    ├── reverse engineering
+    ├── web exploitation
+    └── README.md
+
 notes/                    # notes I may write while solving some tasks 
 ```
