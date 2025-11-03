@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, steganography, picoctf-2023]
+difficulty: medium
+category: forensics
+created: 2025-08-11
+---
+
 ![Task desc](../assets/images/MSB_image_1.png)
 
 This task is related to MSB (most significant bit) and LSB (least significant bit).
