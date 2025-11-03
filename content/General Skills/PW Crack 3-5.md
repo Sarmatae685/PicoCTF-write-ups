@@ -1,3 +1,10 @@
+---
+tags: [General Skills, medium, password_cracking, hashing, beginner-picomini-2022]
+difficulty: medium
+category: general-skills
+created: 2025-04-23
+---
+
 ## PW Crack 3
 
 ![image_1](../assets/images/PW-Crack-3-5_image_1.png)
