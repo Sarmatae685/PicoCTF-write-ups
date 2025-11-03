@@ -1,5 +1,5 @@
 ---
-tags: [Reverse Engineering, medium, picoctf-2022]
+tags: [reverse-engineering, medium, picoctf-2022]
 difficulty: medium
 category: reverse-engineering
 created: 2025-05-01
