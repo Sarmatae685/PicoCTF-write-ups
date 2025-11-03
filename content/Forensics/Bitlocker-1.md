@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, picoctf-2025]
+tags: [forensics, medium, picoctf-2025]
 difficulty: medium
 category: forensics
 created: 2025-08-04
