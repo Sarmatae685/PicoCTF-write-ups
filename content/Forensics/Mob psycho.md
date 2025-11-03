@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, browser_webshell_solvable, apk, picoctf-2024]
+difficulty: medium
+category: forensics
+created: 2025-08-07
+---
+
 ![Task desc](../assets/images/Mob-psycho_image_1.png)
 
 Download the file `mobpsycho.apk`, which is recognized by the `file` command as `Zip archive data`.
