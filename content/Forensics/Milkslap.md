@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picoctf-2021]
+difficulty: medium
+category: forensics
+created: 2025-08-12
+---
+
 ![Milkslap_image_1](../assets/images/Milkslap_image_1.png)
 
 At first glance, this task appears to belong to the `Web Exploitation` category, but the hint suggests looking elsewhere.
