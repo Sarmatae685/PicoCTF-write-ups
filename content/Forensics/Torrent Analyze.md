@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-07-18
+---
+
 ![Task desc](../assets/images/Torrent-Analyze_image_1.png)
 
 In this task, we need to analyze a `.pcap` file and extract information about the `.iso` file that was downloaded via torrent.
