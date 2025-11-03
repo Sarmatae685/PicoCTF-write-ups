@@ -1,3 +1,10 @@
+---
+tags: [Reverse Engineering, medium, picoctf-2022]
+difficulty: medium
+category: reverse-engineering
+created: 2025-06-07
+---
+
 ![Task desc](../assets/images/patchme.py_image_1.png)
 
 In this task, we have a Python script and a file that is decrypted by this script: <br/>
