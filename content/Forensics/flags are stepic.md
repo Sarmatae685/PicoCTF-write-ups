@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, browser_webshell_solvable, picoctf-2025]
+difficulty: medium
+category: forensics
+created: 2025-08-02
+---
+
 ![Task desc](../assets/images/flags-are-stepic_image_1.png)
 
 
