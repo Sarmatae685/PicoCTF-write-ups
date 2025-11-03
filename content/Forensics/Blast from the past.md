@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, browser_webshell_solvable, metadata, picoctf-2024]
+difficulty: medium
+category: forensics
+created: 2025-08-09
+---
+
 ![Task desc](../assets/images/Blast-from-the-past_image_1.png)
 
 The hint in the task prompted me to look for some tools other than `exiftool` for modifying metadata. 
