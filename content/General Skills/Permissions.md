@@ -1,3 +1,10 @@
+---
+tags: [General Skills, medium, vim, picoctf-2023]
+difficulty: medium
+category: general-skills
+created: 2025-07-29
+---
+
 ![Task desc](../assets/images/Permissions_image_1.png)
 
 In this task, we need to see what commands our user can execute, elevate privileges, and obtain a flag.
