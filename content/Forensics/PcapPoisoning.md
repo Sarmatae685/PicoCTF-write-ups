@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, pcap, picoctf-2023]
+difficulty: medium
+category: forensics
+created: 2025-08-09
+---
+
 ![Task desc](../assets/images/PcapPoisoning_image_1.png)
 
 This task boils down to simply reviewing packages and looking for clues.
