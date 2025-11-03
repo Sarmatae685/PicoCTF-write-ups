@@ -1,5 +1,5 @@
 ---
-tags: [General Skills, medium, vim, picoctf-2023]
+tags: [general-skills, medium, vim, picoctf-2023]
 difficulty: medium
 category: general-skills
 created: 2025-07-29
