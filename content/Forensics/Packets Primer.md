@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, pcap, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-06-07
+---
+
 ![Task desc](../assets/images/Packets-Primer_image_1.png)
 
 In this task, we need to extract the flag from `network-dump.flag.pcap`.
