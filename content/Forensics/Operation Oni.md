@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, disk, picoctf-2022]
+difficulty: medium
+category: forensics
+created: 2025-06-07
+---
+
 ![Task desc](../assets/images/Operation-Oni_image_1.png)
 
 In this task, we need to extract the public SSH key from the `.img` file and use it to connect to the remote host where the flag will be located.
