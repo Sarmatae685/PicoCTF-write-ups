@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2022]
+difficulty: medium
+category: cryptography
+created: 2025-04-24
+---
+
 ![Task desc](../assets/images/basic-mod1-2_image_1.png)
 
 
