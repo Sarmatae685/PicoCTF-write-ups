@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, disk, browser_webshell_solvable, picoctf-2024]
+difficulty: medium
+category: forensics
+created: 2025-08-15
+---
+
 ![Task desc](../assets/images/Dear-Diary_image_1.png)
 
 In this task, we examine the `.img` file and find a flag that is hidden in a somewhat unusual way.
