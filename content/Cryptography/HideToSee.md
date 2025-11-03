@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2023]
+difficulty: medium
+category: cryptography
+created: 2025-07-27
+---
+
 ![Task desc](../assets/images/HideToSee_image_1.png)
 
 ```bash
