@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, Substitution, picoctf-2022]
+difficulty: medium
+category: cryptography
+created: 2025-07-18
+---
+
 ![Task desc](../assets/images/substitution1-2_image_1.png)
 
 ---
