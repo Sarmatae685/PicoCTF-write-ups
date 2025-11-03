@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picoctf-2025]
+difficulty: medium
+category: forensics
+created: 2025-08-04
+---
+
 ![Task desc](../assets/images/Bitlocker-1_image_1.png)
 
 
