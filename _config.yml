@@ -1,0 +1,66 @@
+# Site settings
+title: "CTF Writeups"
+description: "My solutions and write-ups for CTF challenges from PicoCTF and other platforms"
+author: "Sarmatae685"
+baseurl: "/PicoCTF-write-ups"
+url: "https://sarmatae685.github.io"
+
+# Social links 
+github_username: Sarmatae685
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Permalink style
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  writeups:
+    output: true
+    permalink: /writeups/:path/
+
+# Defaults for front matter
+defaults:
+  - scope:
+      path: "content"
+    values:
+      layout: "page"
+  - scope:
+      path: "notes"
+    values:
+      layout: "page"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - .git
+
+# Include
+include:
+  - _pages
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Timezone
+timezone: Europe/Kiev
