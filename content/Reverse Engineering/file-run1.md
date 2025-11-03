@@ -1,3 +1,10 @@
+---
+tags: [Reverse Engineering, medium, obfuscation, picoctf-2022]
+difficulty: medium
+category: reverse-engineering
+created: 2025-05-01
+---
+
 ![Task desc](../assets/images/file-run1_image_1.png)
 
 
