@@ -1,5 +1,5 @@
 ---
-tags: [Cryptography, medium, picoctf-2023]
+tags: [cryptography, medium, picoctf-2023]
 difficulty: medium
 category: cryptography
 created: 2025-07-27
