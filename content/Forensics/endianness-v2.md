@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, browser_webshell_solvable, picoctf-2024]
+difficulty: medium
+category: forensics
+created: 2025-08-06
+---
+
 ![Task desc](../assets/images/endianness-v2_image_1.png)
 
 
