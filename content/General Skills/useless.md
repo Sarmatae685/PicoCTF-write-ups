@@ -1,3 +1,10 @@
+---
+tags: [General Skills, medium, man, picoctf-2023]
+difficulty: medium
+category: general-skills
+created: 2025-05-02
+---
+
 ![Task desc](../assets/images/useless_image_1.png)
 
 This task is closely related to the use of the `man`.
