@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, pcap, picoctf-2023]
+tags: [forensics, medium, pcap, picoctf-2023]
 difficulty: medium
 category: forensics
 created: 2025-08-09
