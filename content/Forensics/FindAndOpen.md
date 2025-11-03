@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picoctf-2023]
+difficulty: medium
+category: forensics
+created: 2025-07-27
+---
+
 ![Task desc](../assets/images/FindAndOpen_image_1.png)
 
 In this task, we need to find the password in the `.pcap` file to unpack the archive, in which the flag.  
