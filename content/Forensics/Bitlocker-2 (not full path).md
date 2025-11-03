@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picoctf-2025]
+difficulty: medium
+category: forensics
+created: 2025-08-04
+---
+
 ![Task desc](../assets/images/Bitlocker-2_image_1.png)
 
 This task probably should not have been solved in this way, but nevertheless, it can be solved this way.
