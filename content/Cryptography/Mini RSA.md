@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2021]
+difficulty: medium
+category: cryptography
+created: 2025-04-22
+---
+
 ![Task desc](../assets/images/Mini-RSA_image_1.png)
 
 The task is to break an RSA ciphertext with a very small public exponent `e`.  
