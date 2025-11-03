@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, browser_webshell_solvable, apk, picoctf-2024]
+tags: [forensics, medium, browser-webshell-solvable, apk, picoctf-2024]
 difficulty: medium
 category: forensics
 created: 2025-08-07
