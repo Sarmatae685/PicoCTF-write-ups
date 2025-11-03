@@ -1,3 +1,10 @@
+---
+tags: [Forensics, medium, picomini-redpwn]
+difficulty: medium
+category: forensics
+created: 2025-08-13
+---
+
 ![Task desc](../assets/images/advanced-potion-making_image_1.png)
 
 
