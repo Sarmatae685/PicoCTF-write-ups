@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2022]
+difficulty: medium
+category: cryptography
+created: 2025-07-19
+---
+
 ![Task desc](../assets/images/transposition-trial_image_1.png)
 
 Given text:
