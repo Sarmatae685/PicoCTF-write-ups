@@ -1,3 +1,10 @@
+---
+tags: [Reverse Engineering, medium, obfuscation, picoctf-2022]
+difficulty: medium
+category: reverse-engineering
+created: 2025-04-25
+---
+
 ![Task desc](../assets/images/bloat.py_image_1.png)
 
 
