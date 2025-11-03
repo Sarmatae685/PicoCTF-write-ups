@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, svg, picoctf-2022]
+tags: [forensics, medium, svg, picoctf-2022]
 difficulty: medium
 category: forensics
 created: 2025-05-01
