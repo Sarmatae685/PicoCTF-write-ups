@@ -1,5 +1,5 @@
 ---
-tags: [Forensics, medium, steganography, picoctf-2023]
+tags: [forensics, medium, steganography, picoctf-2023]
 difficulty: medium
 category: forensics
 created: 2025-08-11
