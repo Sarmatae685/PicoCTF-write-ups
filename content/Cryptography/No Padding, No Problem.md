@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2021]
+difficulty: medium
+category: cryptography
+created: 2025-04-17
+---
+
 ![Task desc](../assets/images/No-Padding,-No-Problem_image_1.png)  
 
 First connect to `nc mercury.picoctf.net 10333`.  
