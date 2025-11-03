@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2021]
+difficulty: medium
+category: cryptography
+created: 2025-04-18
+---
+
 ![Task desc](../assets/images/New-Caesar_image_1.png)
 
 
