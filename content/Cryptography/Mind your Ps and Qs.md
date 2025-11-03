@@ -1,3 +1,10 @@
+---
+tags: [Cryptography, medium, picoctf-2021]
+difficulty: medium
+category: cryptography
+created: 2025-04-19
+---
+
 ![Task desc](../assets/images/Mind-your-Ps-and-Qs_image_1.png)  
 
 In this task, `n` and `e` are small. I search for "`rsa small n and e attack`" and find `iroot` method from `gmpy2` module
