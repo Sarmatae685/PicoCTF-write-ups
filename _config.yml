@@ -11,7 +11,7 @@ github_username: Sarmatae685
 # Build settings
 markdown: kramdown
 highlighter: rouge
-remote_theme: just-the-docs/just-the-docs
+remote_theme: Jekyll-Garden/jekyll-garden.github.io
 aux_links:
   "GitHub": "https://github.com/Sarmatae685/PicoCTF-write-ups"
 
