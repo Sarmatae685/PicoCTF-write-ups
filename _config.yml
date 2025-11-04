@@ -22,18 +22,27 @@ kramdown:
   hard_wrap: false
 
 # Collections
-collections:
-  notes:
-    output: true
-    permalink: /:slug
+# collections:
+#  notes:
+#    output: true
+#    permalink: /:slug
 
+# Defaults
 # Defaults
 defaults:
   - scope:
-      path: ""
-      type: notes
+      path: "content/**/*.md"
     values:
       layout: note
+  - scope:
+      path: "notes/**/*.md"  # На випадок якщо є notes папка
+    values:
+      layout: note
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
 
 # Plugins
 plugins:
