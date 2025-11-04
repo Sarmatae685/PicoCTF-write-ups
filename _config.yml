@@ -23,17 +23,15 @@ kramdown:
 
 # Collections
 collections:
-  writeups:
-    output: true
-    permalink: /:slug
   notes:
     output: true
-    permalink: /notes/:slug
+    permalink: /:slug
 
-# Defaults 
+# Defaults
 defaults:
   - scope:
-      path: ""  # ALL files
+      path: ""
+      type: notes
     values:
       layout: note
 
@@ -41,8 +39,6 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-titles-from-headings
-
 
 # Exclude
 exclude:
