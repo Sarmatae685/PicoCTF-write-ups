@@ -1,72 +1,51 @@
 # Site settings
 title: "CTF Writeups"
-description: "My solutions and write-ups for CTF challenges from PicoCTF and other platforms"
-author: "Sarmatae685"
-baseurl: "/PicoCTF-write-ups"
+description: "My solutions and write-ups for CTF challenges"
 url: "https://sarmatae685.github.io"
+baseurl: "/PicoCTF-write-ups"
 
-# Social links 
-github_username: Sarmatae685
+# Theme - Digital Garden (Jekyll Garden theme)
+remote_theme: maximevaillancourt/digital-garden-jekyll-template
+
+# Author
+name: "Sarmatae685"
+github_username: "Sarmatae685"
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-remote_theme: Jekyll-Garden/jekyll-garden.github.io
-aux_links:
-  "GitHub": "https://github.com/Sarmatae685/PicoCTF-write-ups"
 
-# Permalink style
-permalink: /:categories/:title/
+# Kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
 
 # Collections
 collections:
-  writeups:
+  notes:
     output: true
-    permalink: /writeups/:path/
+    permalink: /:slug
 
-# Defaults for front matter
+# Defaults
 defaults:
   - scope:
-      path: "content"
+      path: ""
+      type: notes
     values:
-      layout: "page"
-  - scope:
-      path: "notes"
-    values:
-      layout: "page"
+      layout: note
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
 
-# Exclude from processing
+# Exclude
 exclude:
-  - README.md
-  - LICENSE
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor
-  - .gitignore
-  - .git
+  - README.md
+  - LICENSE
 
-# Include
-include:
-  - _pages
-
-# Remove unnecessary pages from navigation 
-header_pages:
-  - index.md
-
-# Kramdown settings
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
-
-# Timezone
-timezone: Europe/Kiev
+# Digital Garden specific settings
+heading_anchors: true
