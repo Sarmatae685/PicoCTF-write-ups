@@ -9,3 +9,9 @@ gem "jekyll-feed", "~> 0.12"
 
 gem "jekyll-seo-tag"
 # SEO plugin (to help Google index site better)
+
+gem "jekyll-titles-from-headings"
+# for automatic headlines
+
+gem "jekyll-remote-theme"
+# for correct operation with remote theme
