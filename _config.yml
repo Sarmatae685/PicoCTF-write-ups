@@ -23,12 +23,25 @@ kramdown:
 
 # Collections
 collections:
-  notes:
+  writeups:
     output: true
     permalink: /:slug
+  notes:
+    output: true
+    permalink: /notes/:slug
 
 # Defaults
 defaults:
+  - scope:
+      path: "content/**/*.md"  # Всі MD файли в content та його підпапках
+    values:
+      layout: note
+      type: writeups
+  - scope:
+      path: "notes/**/*.md"    # Файли в папці notes
+    values:
+      layout: note
+      type: notes
   - scope:
       path: ""
       type: notes
@@ -39,6 +52,13 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-titles-from-headings  # Автоматичні заголовки
+
+# Include
+include:
+  - content
+  - content/**/*  # Рекурсивно включаємо всі підпапки content
+  - notes
 
 # Exclude
 exclude:
