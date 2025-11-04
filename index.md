@@ -16,12 +16,12 @@ Currently focused on:
 
 Explore write-ups by category:
 
-- **[Forensics](/content/forensics/)** - Digital forensics and file analysis
-- **[Cryptography](content/cryptography/)** - Encryption and decryption challenges
-- **[Binary Exploitation](content/binary-exploitation/)** - Memory corruption and exploitation
-- **[Web Exploitation](content/web-exploitation/)** - Web security vulnerabilities
-- **[Reverse Engineering](content/reverse-engineering/)** - Binary analysis and decompilation
-- **[General Skills](content/general-skills/)** - Linux, scripting, and fundamental skills
+- **[Forensics](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/Forensics)** 
+- **[Cryptography](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/Cryptography)**
+- **[Binary Exploitation](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/Binary%20Exploitation)**
+- **[Web Exploitation](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/Web%20Exploitation)**
+- **[Reverse Engineering](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/Reverse%20Engineering)**
+- **[General Skills](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/General%20Skills)**
 
 ## 🔗 Resources
 
