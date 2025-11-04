@@ -54,6 +54,10 @@ exclude:
 include:
   - _pages
 
+# Remove unnecessary pages from navigation 
+header_pages:
+  - index.md
+
 # Kramdown settings
 kramdown:
   input: GFM
