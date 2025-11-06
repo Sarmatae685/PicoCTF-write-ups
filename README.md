@@ -17,7 +17,7 @@ As for November 5, 2025 I have:
 | 🟢 **Easy** | **75** | Foundation building |
 | 🟡 **Medium** | **143** | Current focus |
 
-[pico stats](content/assets/images/pico_stats.png)
+![pico stats](content/assets/images/pico_stats.png)
 
 **Total Challenges Solved:** 218+ 🎉
 
