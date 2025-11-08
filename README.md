@@ -57,4 +57,7 @@ PicoCTF-write-ups/
 
 </div>
 
-#### All write-ups are shared freely for educational purposes.
+#### All write-ups are shared freely for educational purposes.  
+
+## Star⭐
+⭐ If you found this helpful, please star the repo!
