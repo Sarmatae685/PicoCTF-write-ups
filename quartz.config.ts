@@ -8,27 +8,31 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "PicoCTF Write-ups",
+    // pageTitleSuffix: "| Sarmatae685",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "sarmatae685.github.io/picoctf",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created", // буде показувати дату, коли я вирішив завдання (бере з тегу created). Якщо created-тегу немає, то Quartz використає modified (дата останньої зміни)
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
+        /*
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
+        */
+        header: "JetBrains Mono",      // Моноширинний для tech-look
+        body: "Inter",                  // Сучасний, читабельний
+        code: "Fira Code",              // З лігатурами для коду
       },
       colors: {
         lightMode: {
+          /*
           light: "#faf8f8",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
@@ -38,8 +42,19 @@ const config: QuartzConfig = {
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
+          */
+          light: "#fafafa",
+          lightgray: "#e7e7e7",
+          gray: "#9f9f9f",
+          darkgray: "#4a4a4a",
+          dark: "#1a1a1a",
+          secondary: "#8b5cf6",         // Фіолетовий (cyber)
+          tertiary: "#ec4899",          // Рожевий (акцент)
+          highlight: "rgba(139, 92, 246, 0.1)",
+          textHighlight: "#fde68a88",
         },
         darkMode: {
+          /*
           light: "#161618",
           lightgray: "#393639",
           gray: "#646464",
@@ -49,6 +64,16 @@ const config: QuartzConfig = {
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
+          */
+          light: "#0a0a0f",
+          lightgray: "#1a1a24",
+          gray: "#6b7280",
+          darkgray: "#d1d5db",
+          dark: "#f3f4f6",
+          secondary: "#a78bfa",         // Світло-фіолетовий
+          tertiary: "#f472b6",          // Світло-рожевий
+          highlight: "rgba(167, 139, 250, 0.15)",
+          textHighlight: "#fbbf2488",
         },
       },
     },
@@ -89,7 +114,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-     // Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }
