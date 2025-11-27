@@ -53,13 +53,13 @@ const defaultOptions: Options = {
   {
   // Власний порядок папок
   const customOrder = [
-    "Theory",
     "Binary Exploitation",
     "Cryptography", 
     "Forensics",
     "General Skills",
     "Reverse Engineering",
     "Web Exploitation",
+    "Theory",
   ]
 
   // Папки vs файли: папки завжди першими
