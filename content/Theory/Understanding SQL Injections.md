@@ -1,10 +1,18 @@
+---
+date: 2025-08-19
+tags:
+  - web-exploitation
+  - sql
+  - theory
+---
+
 > [!NOTE]
 > **SQL injection (SQLi)** is a well-known web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. ([Source](https://portswigger.net/web-security/sql-injection))
 
 This note may be expanded in future. Challenges that require SQLi:
-* [SQL Direct](../content/Web%20Exploitation/SQL%20Direct.md)
-* [SQLiLite](../content/Web%20Exploitation/SQLiLite.md) 
-* [More SQLi](../content/Web%20Exploitation/More%20SQLi.md) 
+* [SQL Direct](../Web%20Exploitation/SQL%20Direct.md)
+* [SQLiLite](../Web%20Exploitation/SQLiLite.md) 
+* [More SQLi](../Web%20Exploitation/More%20SQLi.md) 
 
 Let's assume that the application queries the database with the following SQL query:
 

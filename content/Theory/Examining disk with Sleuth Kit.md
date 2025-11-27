@@ -1,8 +1,16 @@
+---
+date: 2025-08
+tags:
+  - forensics
+  - sleuthkit
+  - theory
+---
+
 📒 Notes with command examples to examine a disk in forensics challenges like:
-- [Sleuthkit Apprentice](../content/Forensics/Sleuthkit%20Apprentice.md)
-- [DISKO 2](../content/Forensics/DISKO%202.md)
-- [DISKO 3](../content/Forensics/DISKO%203.md)
-- [Dear Diary](../content/Forensics/Dear%20Diary.md)
+- [Sleuthkit Apprentice](../Forensics/Sleuthkit%20Apprentice.md)
+- [DISKO 2](../Forensics/DISKO%202.md)
+- [DISKO 3](../Forensics/DISKO%203.md)
+- [Dear Diary](../Forensics/Dear%20Diary.md)
 
 and many more (some of them I solved via `Autopsy 4.22.0` for Windows 11)
 

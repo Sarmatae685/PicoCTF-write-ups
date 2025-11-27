@@ -1,5 +1,12 @@
+---
+date: 2025-08
+tags:
+  - theory
+  - networking
+---
+
 > [!NOTE]
-> I wrote this note while solving [Torrent Analyze](../content/Forensics/Torrent%20Analyze.md) task.
+> I wrote this note while solving [Torrent Analyze](../Forensics/Torrent%20Analyze.md) task.
 
 <br/>
 

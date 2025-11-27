@@ -1,6 +1,14 @@
+---
+date: 2025-08
+tags:
+  - forensics
+  - png
+  - theory
+---
+
 > [!TIP]
 > This note may be helpful for solving:
-> * [advanced-potion-making](../content/Forensics/advanced-potion-making.md) 
+> * [advanced-potion-making](../Forensics/advanced-potion-making.md) 
 
 <br/>
 
