@@ -27,7 +27,7 @@ This module contains the method `attack(e, n)`.
 Let's write a Python program for this:
 
 > [!TIP]
-> A script as well as other scripts I left there: [*click*](../content/scripts/cryptography/Dachshund%20Attacks/wiener%20attack.py)
+> A script as well as other scripts I left there: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/blob/main/content/scripts/cryptography/Dachshund%20Attacks/wiener%20attack.py)
 
 ![image_3](../assets/images/Dachshund-Attacks_image_3.png) 
 

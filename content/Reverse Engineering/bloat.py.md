@@ -11,7 +11,7 @@ created: 2025-04-25
 In this task, we have obfuscated code that decrypts the flag and a file with the encrypted flag itself. We need to understand its logic and make the code more understandable.
 
 > [!TIP]
-> All resources for this task I left here: [*click*](../scripts/reverse%20engineering/bloat.py)
+> All resources for this task I left here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/scripts/reverse%20engineering/bloat.py)
 
 ---
 

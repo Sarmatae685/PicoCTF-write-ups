@@ -84,7 +84,7 @@ I used [https://factordb.com](https://factordb.com):
 and write a Python program to find `d`, calculate `c^d mod n` (decrypt), and convert the key and bytes:
 
 > [!TIP]
-> This script as well as for other tasks I left here: [*click*](../content/scripts/cryptography/Mind%20your%20Ps%20and%20Qs/small%20e%20and%20n.py)
+> This script as well as for other tasks I left here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/blob/main/content/scripts/cryptography/Mind%20your%20Ps%20and%20Qs/small%20e%20and%20n.py)
 
 ```python
 from Crypto.Util.number import inverse, long_to_bytes

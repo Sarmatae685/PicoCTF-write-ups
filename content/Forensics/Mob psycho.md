@@ -42,7 +42,7 @@ find mobpsycho -type f -print0 | xargs -0 strings | grep -oE 'picoCTF\{.*\}'
 ```
 
 > [!TIP]
-> Full list of commands with explanations to solve this challenge I left here: [*click*](../scripts/forensics/mob-psycho/bash_to_solve.md)
+> Full list of commands with explanations to solve this challenge I left here: [*click*](../Theory/mob-psycho-bash-solution.md)
 
 
 Tried searching manually through files:

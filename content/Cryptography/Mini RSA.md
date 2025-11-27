@@ -38,7 +38,7 @@ If `m**e < N`, then it is sufficient to simply take the root of the e-th degree.
 Let's write a Python program to solve this problem:
 
 > [!TIP]
-> This script as well as other I left here: [*click*](../content/scripts/cryptography/Mini%20RSA/iroot_usage.py)
+> This script as well as other I left here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/blob/main/content/scripts/cryptography/Mini%20RSA/iroot_usage.py)
 
 ```python
 from gmpy2 import iroot

@@ -13,7 +13,10 @@ Let's analyze the code of the downloaded program:
 
 
 I decided to rewrite this program with a step-by-step output of everything that happens here  
-`goofy_stuff.py`:          
+`goofy_stuff.py`
+
+>[!NOTE]
+> This script as well as others I left here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/blob/main/content/scripts/reverse%20engineering/unpackme.py/goofy_stuff.py)          
 
 ```python
 import base64

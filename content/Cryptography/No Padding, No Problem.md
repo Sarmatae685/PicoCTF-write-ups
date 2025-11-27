@@ -89,7 +89,7 @@ Then we send this result `(ciphertext * x) mod n` to the server, it receives it,
 Let's write a Python program for this (the values of the variables must be changed each time after restarting the server!):  
 
 > [!TIP]
-> A script as well as other scripts I left here: [*click*](../content/scripts/cryptography/No%20Padding,%20No%20Problem/solve.py)
+> A script as well as other scripts I left here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/blob/main/content/scripts/cryptography/No%20Padding%2C%20No%20Problem/solve.py)
 
 ```python
 from Crypto.Util.number import long_to_bytes

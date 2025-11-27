@@ -24,7 +24,7 @@ Next, you need to perform the following actions: take each of the numbers `dec[i
 * if the remainder is 36 or more, it is "_"
 
 > [!TIP]
-> I left scripts for both tasks here: [*click*](../scripts/cryptography/basic-mod1-2)
+> I left scripts for both tasks here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/scripts/cryptography/basic-mod1-2)
 
 <br/>
 

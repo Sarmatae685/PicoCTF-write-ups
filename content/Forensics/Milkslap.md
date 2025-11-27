@@ -40,7 +40,7 @@ First, I counted the frames manually, there are `66` of them.
 Let's write a Python-script `cut_frames.py` for cutting frames from a sprite sheet:
 
 > [!TIP]
-> Scripts and explanations to them I left here: [*click*](../scripts/forensics/milkslap)
+> Scripts and explanations to them I left here: [*click*](../Theory/milkslap-scripts-explained)
 
 ```python
 #usage:

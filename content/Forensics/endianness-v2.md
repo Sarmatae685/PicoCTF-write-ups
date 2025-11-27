@@ -59,8 +59,9 @@ PDF  b'\x25\x50\x44\x46'
 ```
 
 Then I wrote `endian_converter.py`, that does all the stuff automatically. 
+
 > [!TIP]
-> I left it here: [*click*](../scripts/forensics/endianness-v2/endian_converter.py) 
+> I left the script here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/blob/main/content/scripts/forensics/endianness-v2/endian_converter.py) 
 
 
 ![image_5](../assets/images/endianness-v2_image_5.png)
