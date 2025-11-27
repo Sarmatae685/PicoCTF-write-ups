@@ -1,3 +1,11 @@
+---
+title: Mob psycho bash solution
+tags:
+  - forensics
+  - bash
+  - theory
+---
+
 # Commands to solve picoCTF 'Mob psycho' challenge:
 
 ## Search for hex strings 16+ characters long

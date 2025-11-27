@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "sarmatae685.github.io/picoctf",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "scripts"],
     defaultDateType: "created", // буде показувати дату, коли я вирішив завдання (бере з тегу created). Якщо created-тегу немає, то Quartz використає modified (дата останньої зміни)
     theme: {
       fontOrigin: "googleFonts",

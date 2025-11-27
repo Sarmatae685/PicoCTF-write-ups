@@ -1,3 +1,14 @@
+---
+title: Milkslap scripts breakdown
+tags:
+  - forensics
+  - python
+  - theory
+---
+
+> [!TIP]
+> Scripts are stored here: [*click*](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/scripts/forensics/milkslap)
+
 ## `cut_frames.py`
 
 
