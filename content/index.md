@@ -1,5 +1,6 @@
 ---
 title: PicoCTF Write-ups
+date: 2025-11-28
 ---
 
 ![banner](assets/images/index_banner.png)
