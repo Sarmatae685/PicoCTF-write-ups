@@ -16,8 +16,7 @@ export default ((opts?: Options) => {
         <p> 
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://github.com/Sarmatae685">Sarmatae</a> © {year} | 
-          Licence: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 (en)</a> | 
-          <a href="https://creativecommons.org/licenses/by/4.0/deed.uk"> (ua)</a>
+          Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
