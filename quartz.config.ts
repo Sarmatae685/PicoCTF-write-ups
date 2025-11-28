@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "sarmatae685.github.io/picoctf",
+    baseUrl: "sarmatae685.github.io/PicoCTF-write-ups",
     ignorePatterns: ["private", "templates", ".obsidian", "scripts"],
     defaultDateType: "created", // буде показувати дату, коли я вирішив завдання (бере з тегу created). Якщо created-тегу немає, то Quartz використає modified (дата останньої зміни)
     theme: {
