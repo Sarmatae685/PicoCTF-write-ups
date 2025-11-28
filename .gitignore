@@ -177,6 +177,5 @@ cython_debug/
 node_modules/
 .quartz-cache/
 public/
-package-lock.json
 .DS_Store
 quartz-temp/
