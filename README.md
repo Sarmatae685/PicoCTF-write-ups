@@ -1,63 +1,64 @@
-## 🚩 PicoCTF Write-ups
+# 🚩 CTF Write-ups
 
-PicoCTF Capture The Flag challenges - solutions, explanations, and learning notes
+A comprehensive collection of [PicoCTF](https://picoctf.org/) challenge solutions, powered by [Quartz](https://quartz.jzhao.xyz/).
 
-## 👋 About Me
+## 🌐 Visit the Site
 
-Hi! I'm a cybersecurity enthusiast from Ukraine. I am solving CTF challenges on PicoCTF and share my progress here.
+### **[sarmatae685.github.io/PicoCTF-write-ups](https://sarmatae685.github.io/PicoCTF-write-ups/)**
 
-### 📊 PicoCTF Statistics
+![Mob at 100%](content/assets/images/index_banner.png)
 
-As for November 5, 2025 I have:
+## ✨ Features
 
-<div align="center">
+- 📝 **71 detailed write-ups** across 6 CTF categories
+- 🧠 **Theory section** with in-depth technical guides
+- 💻 **Exploit scripts** and automation tools
+- 🔍 **Search** — Find challenges instantly
+- 🗺️ **Graph view** — Visualize challenge relationships
+- 🏷️ **Tags** — Navigate by difficulty and technique
 
-| Difficulty | Solved | Notes |
-|:----------:|:------:|:------|
-| 🟢 **Easy** | **75** | Foundation building |
-| 🟡 **Medium** | **143** | Current focus |
+## 📚 Categories
 
-![pico stats](content/assets/images/pico_stats.png)
+| Category | Description |
+|----------|-------------|
+| **Binary Exploitation** | Memory corruption, buffer overflows |
+| **Cryptography** | RSA, ciphers, cryptanalysis |
+| **Forensics** | File analysis, steganography |
+| **General Skills** | Linux, scripting, fundamentals |
+| **Reverse Engineering** | Binary analysis, deobfuscation |
+| **Web Exploitation** | SQL injection, XSS, web attacks |
 
-**Total Challenges Solved:** 218+ 🎉
+## 🛠️ Tools Used
 
-</div>
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
 
-## 🗂️ Repository Structure
+**Additional tools:** Sleuth Kit, Ghidra, John the Ripper, Autopsy, CyberChef, pwntools
 
-```
-PicoCTF-write-ups/
-├── 📁 content/                    # All write-ups organized by category
-│   ├── Binary Exploitation/
-│   ├── Cryptography/
-│   ├── Forensics/
-│   ├── General Skills/
-│   ├── Reverse Engineering/
-│   ├── Web Exploitation/
-│   ├── 📁 assets/images/          # Screenshots and diagrams
-│   └── 📁 scripts/                # Solution scripts and automation
-│       ├── binary-exploitation/
-│       ├── cryptography/
-│       ├── forensics/
-│       ├── reverse-engineering/
-│       └── web-exploitation/
-├── 📁 notes/                      # Additional learning notes I may write while solving some tasks
-└── 📄 README.md                   # You are here!
-```
+## 🚀 Built With
 
-## 🛠️ Tools & Technologies
+- **Quartz v4** — Static site generator
+- **GitHub Pages** — Hosting
+- **Markdown** — Content format
 
-<div align="center">
+## 📄 License
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Autopsy](https://img.shields.io/badge/Autopsy-FF6B6B?style=for-the-badge&logo=hack-the-box&logoColor=white)
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Free to use with attribution
 
-</div>
+---
 
-#### All write-ups are shared freely for educational purposes.  
+<p align="center">
+  <a href="https://github.com/Sarmatae685">GitHub</a> •
+  <a href="https://sarmatae685.github.io/PicoCTF-write-ups/">Website</a> •
+  <a href="https://play.picoctf.org/">PicoCTF</a>
+</p>
 
-## Star⭐
-⭐ If you found this helpful, please star the repo!
+<p align="center">
+⭐ <strong>Star this repo if you found it helpful!</strong>
+</p>
