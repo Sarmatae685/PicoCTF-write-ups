@@ -12,7 +12,7 @@ tags:
 
 <br/>
 
-![IHDR Structure](../content/assets/images/IHDR_structure.png)  
+![IHDR Structure](../assets/images/IHDR_structure.png)  
 [Source](https://stackoverflow.com/questions/54845745/not-able-to-read-ihdr-chunk-of-a-png-file) that helped me.
 
 <br/>
