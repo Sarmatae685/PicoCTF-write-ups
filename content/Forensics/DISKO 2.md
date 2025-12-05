@@ -38,7 +38,7 @@ There are several partitions, but for the purposes of this task, we are interest
 
 
 ```bash
-dd if=disko-2.dd of=part1.img bs=512 skip=2048 count=51200 (skip від 0 до 2047?)
+dd if=disko-2.dd of=part1.img bs=512 skip=2048 count=51200
 sudo mkdir /mnt/part1
 sudo mount -o loop part1.img /mnt/part1/
 ```
