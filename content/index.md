@@ -17,13 +17,13 @@ Currently the repository contains **71** write-ups to *medium* difficulty tasks 
 
 Explore challenges organized by category:
 
-- **[[Binary Exploitation]]** — Memory corruption and exploitation
-- **[[Cryptography]]** — Ciphers, RSA, and cryptanalysis  
-- **[[Forensics]]** — File analysis and steganography
-- **[[General Skills]]** — Linux and scripting fundamentals
-- **[[Reverse Engineering]]** — Binary analysis and deobfuscation
-- **[[Web Exploitation]]** — Web vulnerabilities and attacks
-- **[[Theory]]** — In-depth guides: Sleuth Kit forensics, PNG structure, SQL injections, and more
+- **[Binary Exploitation](Binary%20Exploitation/)** — Memory corruption and exploitation
+- **[Cryptography](Cryptography/)** — Ciphers, RSA, and cryptanalysis  
+- **[Forensics](Forensics/)** — File analysis and steganography
+- **[General Skills](General%20Skills/)** — Linux and scripting fundamentals
+- **[Reverse Engineering](Reverse%20Engineering/)** — Binary analysis and deobfuscation
+- **[Web Exploitation](Web%20Exploitation/)** — Web vulnerabilities and attacks
+- **[Theory](Theory/)** — In-depth guides: Sleuth Kit forensics, PNG structure, SQL injections, and more
 
 ## 💻 Scripts
 
