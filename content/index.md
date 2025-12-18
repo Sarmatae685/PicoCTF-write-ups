@@ -29,6 +29,12 @@ Explore challenges organized by category:
 
 All exploit scripts and solution code are available on [GitHub](https://github.com/Sarmatae685/PicoCTF-write-ups/tree/main/content/scripts).
 
+## ✅ My current progress
+As for November 2025 I solved 77 *easy* and 141 *medium* challenges across all categories, present on PicoCTF.  
+
+<p align="center">
+  <img src="assets/images/pico_stats.png" />
+</p>
 
 ## 📬 Connect
 
