@@ -54,7 +54,7 @@
     "hast-util-to-jsx-runtime": "^2.3.6",
     "hast-util-to-string": "^3.0.1",
     "is-absolute-url": "^5.0.0",
-    "js-yaml": "^5.2.0",
+    "js-yaml": "^3.14.1",
     "lightningcss": "^1.32.0",
     "mdast-util-find-and-replace": "^3.0.2",
     "mdast-util-to-hast": "^13.2.1",
@@ -96,6 +96,10 @@
     "workerpool": "^10.0.2",
     "ws": "^8.21.0",
     "yargs": "^18.0.0"
+  },
+  "overrides": {
+    "immutable": "5.1.5",
+    "picomatch": "^4.0.3"
   },
   "devDependencies": {
     "@types/d3": "^7.4.3",
